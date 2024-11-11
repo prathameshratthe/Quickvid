@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-    name: "QuickVid",
-    description: "Your AI-Powered Video Summarization Tool",
+    name: "SummarIQ",
+    description: "AI-Driven Video Summaries and Fact-Checking",
     links: {
-        github: "https://github.com/metaloozee/quickvid",
+        github: "https://github.com/prathameshratthe/summarIQ",
     },
 }
