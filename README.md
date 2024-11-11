@@ -1,13 +1,4 @@
-<h1 align="center">QuickVid - Summarize & Verify any YouTube video in seconds</h1>
-
-<p align="center">
-  <a href="https://twitter.com/metaloozee">
-    <img src="https://img.shields.io/twitter/follow/metaloozee?style=flat&label=%40metaloozee&logo=twitter&color=0bf&logoColor=fff" alt="Twitter" />
-  </a>
-  <a href="https://github.com/metaloozee/quickvid/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/metaloozee/quickvid?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
-  </a>
-</p>
+<h1 align="center">SummarIQ - AI-Driven Video Summaries and Fact-Checking</h1>
 
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
@@ -20,7 +11,7 @@
 
 ## Introduction
 
-QuickVid is here to revolutionize how you interact with YouTube content. It's simple:
+SummarIQ is here to revolutionize how you interact with YouTube content. It's simple:
 
 1. Paste a YouTube link.
 2. Get lightning-fast summaries.
@@ -32,8 +23,8 @@ QuickVid is here to revolutionize how you interact with YouTube content. It's si
 
 1. Clone the Repository
     ```bash
-    git clone https://github.com/metaloozee/quickvid.git
-    cd quickvid
+    git clone https://github.com/prathameshratthe/summarIQ.git
+    cd summarIQ
     ```
 2. Install Dependencies
     ```bash
@@ -51,18 +42,18 @@ QuickVid is here to revolutionize how you interact with YouTube content. It's si
 
 1. Clone the Repository
     ```bash
-    git clone https://github.com/metaloozee/quickvid
-    cd quickvid
+    git clone https://github.com/prathameshratthe/summarIQ
+    cd summarIQ
     ```
 2. Set Environment Variables
 
 3. Build the Docker Image
     ```bash
-    docker build -t quickvid .
+    docker build -t summariq .
     ```
 4. Run the Docker Container
     ```bash
-    docker run -p 3000:3000 --env-file .env.local quickvid
+    docker run -p 3000:3000 --env-file .env.local summariq
     ```
     this will launch the Next.js application inside the Docker container, and you can access it by visiting http://localhost:3000 in your web browser.
 
@@ -75,17 +66,7 @@ QuickVid is here to revolutionize how you interact with YouTube content. It's si
 -   [Neon](https://neon.tech/) – Database
 -   [shadcn/ui](https://ui.shadcn.com/) - UI Component Library
 
-## Contributing
-
-We love our contributors! Here's how you can contribute:
-
--   [Open an issue](https://github.com/metaloozee/quickvid/issues) if you believe you've encountered a bug.
--   Make a [pull request](https://github.com/metaloozee/quickvid/pulls) to add new features/make quality-of-life improvements/fix bugs.
-
-## Author
-
--   Ayan ([@metaloozee](https://twitter.com/metaloozee))
 
 ## License:
 
-QuickVid is open-sourced under the GNU General Public License Version 3 (GPLv3) or any later version. You can [find it here](https://github.com/metaloozee/quickvid/blob/main/LICENSE.md)
+SummarIQ is open-sourced under the GNU General Public License Version 3 (GPLv3) or any later version. You can [find it here](https://github.com/prathameshratthe/summarIQ/blob/main/LICENSE.md)
