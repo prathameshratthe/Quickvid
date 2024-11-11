@@ -11,16 +11,10 @@ export const Navbar = async () => {
                 <div className="flex items-center gap-2">
                     <Link href="/" className="flex items-center space-x-2">
                         <h1 className="text-xl">
-                            Quick
-                            <span className="text-primary">Vid</span>
+                            Summar
+                            <span className="text-primary">IQ</span>
                         </h1>
                     </Link>
-                    <Badge
-                        variant={"secondary"}
-                        className="h-5 text-[10px] font-light"
-                    >
-                        Beta
-                    </Badge>
                 </div>
 
                 <div className="flex flex-1 items-center justify-end">
